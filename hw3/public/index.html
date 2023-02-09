@@ -1,0 +1,87 @@
+<!-- Store html by Cory Marleau -->
+<html>
+
+<head>
+    <link rel="stylesheet" href="stylesheets/store.css">
+    <title>Cheesecake Order Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+    </script>
+</head>
+
+<body>
+    <h1>Cheesecake Order Form</h1>
+    <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg/1599px-Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg?20171018065901"
+            alt="Cheesecake Image" style="width:500px; height:400px;" class="center">
+    </div>
+    <div>
+        <text id="thankyoutext">
+        </text>
+    </div>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <p>Quantity</p>
+                </td>
+                <td>
+                    <p>Topping</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="Quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="radio" id="plain" name="flavor" value="Plain">
+                    <label for="plain">Plain</label><br>
+                    <input type="radio" id="cherry" name="flavor" value="Cherry">
+                    <label for="cherry">Cherry</label><br>
+                    <input type="radio" id="chocolate" name="flavor" value="Chocolate">
+                    <label for="chocolate">Chocolate</label>
+                </td>
+            </tr>
+
+        </table>
+
+        <div>
+            <p>Notes:</p>
+            <textarea id="textareainput" placeholder="Enter any special instructions here." style="width:400px; height:150px"></textarea>
+            <br>
+            <input type="submit" value="Order">
+        </div>
+    </form>
+    <script type="text/javascript" src="/javascripts/cheesecake.js"></script>
+    <div>
+        <table>
+            <td><h3>Orders for</h3></td>
+            <td><div class="vertical-menu">
+                <a href="#" class="active">Jan</a>
+                <a href="#">Feb</a>
+                <a href="#">Mar</a>
+                <a href="#">Apr</a>
+                <a href="#">May</a>
+                <a href="#">Jun</a>
+                <a href="#">Jul</a>
+                <a href="#">Aug</a>
+                <a href="#">Sep</a>
+                <a href="#">Oct</a>
+                <a href="#">Nov</a>
+                <a href="#">Dec</a>
+              </div></td>
+        </table>
+        <ul>
+            <li>11 Cherry</li>
+            <li>17 Chocolate</li>
+            <li>31 Plain</li>
+        </ul>
+        </div>
+    </div>
+</body>
+
+</html>

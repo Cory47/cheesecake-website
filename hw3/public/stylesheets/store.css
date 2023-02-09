@@ -1,0 +1,49 @@
+/* Store css by Cory Marleau */
+
+body {
+  background-color: rgb(220, 107, 90);
+}
+div {
+  background-color: rgb(255, 235, 221);
+}
+
+h1 {
+  color: rgb(1, 1, 1);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.vertical-menu {
+  width: 70px;
+  height: 40px;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color:rgb(1, 1, 1);
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: rgb(220, 107, 90);
+  color:white;
+}
