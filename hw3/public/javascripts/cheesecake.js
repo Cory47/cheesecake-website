@@ -1,3 +1,4 @@
+//Cory Marleau created this file
 $(document).ready(function () {
     $("form").submit(function () {
         //Gets lots of variables within the form
