@@ -1,13 +1,13 @@
 <!-- Store html by Cory Marleau -->
 <html>
-
+<!-- header information-->
 <head>
     <link rel="stylesheet" href="stylesheets/store.css">
     <title>Cheesecake Order Form</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
     </script>
 </head>
-
+<!-- body of the website -->
 <body>
     <h1>Cheesecake Order Form</h1>
     <div>
@@ -19,6 +19,7 @@
         </text>
     </div>
     <form>
+        <!-- beginning of 2*2 table for quantity and radio buttons -->
         <table>
             <tr>
                 <td>
@@ -48,7 +49,7 @@
             </tr>
 
         </table>
-
+        <!-- Input for extra notes in the order -->
         <div>
             <p>Notes:</p>
             <textarea id="textareainput" placeholder="Enter any special instructions here." style="width:400px; height:150px"></textarea>
@@ -56,6 +57,7 @@
             <input type="submit" value="Order">
         </div>
     </form>
+    <!-- Vertical Menu -->
     <script type="text/javascript" src="/javascripts/cheesecake.js"></script>
     <div>
         <table>
@@ -75,13 +77,12 @@
                 <a href="#">Dec</a>
               </div></td>
         </table>
-        <ul>
-            <li>11 Cherry</li>
-            <li>17 Chocolate</li>
-            <li>31 Plain</li>
+        <ul id = ordersList>
+            <li id = item>11 Cherry</li>
+            <li id = item>17 Chocolate</li>
+            <li id = item>31 Plain</li>
         </ul>
         </div>
     </div>
 </body>
-
 </html>
